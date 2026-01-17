@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ALL_TREATMENTS, OPD_LOCATIONS } from '../constants';
-import { Button } from './Button';
+import { ALL_TREATMENTS, OPD_LOCATIONS } from '@/constants';
+import { Button } from '@/components/ui/Button';
 import { ArrowRight, CheckCircle2, Calendar, MapPin, Clock } from 'lucide-react';
 
-import { siteConfig } from '../site.config';
+import { siteConfig } from '@/constants/site.config';
 import { motion } from 'framer-motion';
 
 export const TreatmentDetailPage: React.FC = () => {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TESTIMONIALS } from '../constants';
+import { TESTIMONIALS } from '@/constants';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Quote } from 'lucide-react';
 

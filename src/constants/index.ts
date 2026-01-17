@@ -1,11 +1,11 @@
-import { Doctor, NavItem, TreatmentItem, TestimonialData, StatItem } from './types';
+import { Doctor, NavItem, TreatmentItem, TestimonialData, StatItem } from '@/types';
 import { siteConfig } from './site.config';
-import aestheticDerma from './components/ASSETS/HERO/Aesthethic Derma.jpg';
-import hairRestore from './components/ASSETS/HERO/HairRestore.jpg';
-import acneRevision from './components/ASSETS/HERO/acnerevision.jpg';
-import hairTransplant from './components/ASSETS/HERO/hairtrans.jpg';
-import fillers from './components/ASSETS/HERO/fillers.jpg';
-import laserReduce from './components/ASSETS/HERO/laserreduce.jpg';
+import aestheticDerma from '@/assets/AesthethicDerma.jpg';
+import hairRestore from '@/assets/HairRestore.jpg';
+import acneRevision from '@/assets/acnerevision.jpg';
+import hairTransplant from '@/assets/hairtrans.jpg';
+import fillers from '@/assets/fillers.jpg';
+import laserReduce from '@/assets/laserreduce.jpg';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'About Us', href: '/about' },

@@ -1,7 +1,7 @@
 import React from 'react';
-import { SPECIALIZATIONS } from '../constants';
+import { SPECIALIZATIONS } from '@/constants';
 import { ArrowUpRight } from 'lucide-react';
-import { Reveal } from './Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const Specializations: React.FC = () => {
   return (

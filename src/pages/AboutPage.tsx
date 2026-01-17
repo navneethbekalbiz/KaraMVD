@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Reveal } from './Reveal';
-import { siteConfig } from '../site.config';
+import { Reveal } from '@/components/ui/Reveal';
+import { siteConfig } from '@/constants/site.config';
 import { Award, BookOpen, Briefcase, GraduationCap, Mic, FileText, Globe } from 'lucide-react';
 
 export const AboutPage: React.FC = () => {

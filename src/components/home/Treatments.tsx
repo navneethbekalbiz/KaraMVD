@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { TREATMENTS } from '../constants';
-import { Reveal } from './Reveal';
+import { TREATMENTS } from '@/constants';
+import { Reveal } from '@/components/ui/Reveal';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, ArrowRight } from 'lucide-react';
-import { Button } from './Button';
+import { Button } from '@/components/ui/Button';
 
 export const Treatments: React.FC = () => {
   const [activeTab, setActiveTab] = useState(TREATMENTS[0]);

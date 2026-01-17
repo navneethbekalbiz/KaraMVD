@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { LaptopFrame } from "./ui/laptop-frame";
-import { DottedGlowBackground } from "./ui/dotted-glow-background";
+import { LaptopFrame } from "@/components/ui/laptop-frame";
+import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 import { Play, Search, Bell, Monitor, Heart, RotateCcw, ThumbsUp, Share2, MoreVertical, Settings } from "lucide-react";
-import { siteConfig } from "../site.config";
+import { siteConfig } from "@/constants/site.config";
 
 // Video Data
 const VIDEOS = [

@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-import { Layout } from './components/Layout';
-import { Home } from './components/Home';
-import { AboutPage } from './components/AboutPage';
+import { Layout } from '@/components/layout/Layout';
+import { Home } from '@/pages/Home';
+import { AboutPage } from '@/pages/AboutPage';
 
-import { VideosPage } from './components/VideosPage';
-import { TreatmentDetailPage } from './components/TreatmentDetailPage';
+import { VideosPage } from '@/pages/VideosPage';
+import { TreatmentDetailPage } from '@/pages/TreatmentDetailPage';
 
 function App() {
   return (

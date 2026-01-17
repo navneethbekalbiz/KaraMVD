@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { siteConfig } from '../site.config';
-import { NavItem } from '../types';
-import { NAV_ITEMS } from '../constants';
+import { siteConfig } from '@/constants/site.config';
+import { NavItem } from '@/types';
+import { NAV_ITEMS } from '@/constants';
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
-import { Button } from './Button';
+import { Button } from '@/components/ui/Button';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 

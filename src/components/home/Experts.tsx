@@ -1,8 +1,8 @@
 import React from 'react';
-import { DOCTORS } from '../constants';
-import { Reveal } from './Reveal';
-import { Carousel, Card } from './ui/apple-cards-carousel';
-import { siteConfig } from '../site.config';
+import { DOCTORS } from '@/constants';
+import { Reveal } from '@/components/ui/Reveal';
+import { Carousel, Card } from '@/components/ui/apple-cards-carousel';
+import { siteConfig } from '@/constants/site.config';
 
 export const Experts: React.FC = () => {
 

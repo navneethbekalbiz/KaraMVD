@@ -1,6 +1,6 @@
 import React from 'react';
-import { STATS } from '../constants';
-import { Reveal } from './Reveal';
+import { STATS } from '@/constants';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const Stats: React.FC = () => {
   return (

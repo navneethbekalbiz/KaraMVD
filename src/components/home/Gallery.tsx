@@ -1,8 +1,8 @@
 import React from 'react';
-import { Reveal } from './Reveal';
-import { Carousel, Card } from './ui/apple-cards-carousel';
-import acneScarBfr from './ASSETS/BEFORE TREATMENT/ACNESCARBFR.jpg';
-import acneScarAft from './ASSETS/AFTER TREATMENT/acnescarclean.jpg';
+import { Reveal } from '@/components/ui/Reveal';
+import { Carousel, Card } from '@/components/ui/apple-cards-carousel';
+import acneScarBfr from '@/assets/ACNESCARBFR.jpg';
+import acneScarAft from '@/assets/acnescarclean.jpg';
 
 export const Gallery: React.FC = () => {
   const galleryItems = [

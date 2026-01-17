@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Reveal } from './Reveal';
+import { Reveal } from '@/components/ui/Reveal';
 import { ArrowUpRight } from 'lucide-react';
-import heroVideo from './ASSETS/HERO/VitalKlinic_HEROVIDEO.mp4';
-import { QuizModal } from './QuizModal';
+import heroVideo from '@/assets/VitalKlinic_HEROVIDEO.mp4';
+import { QuizModal } from '@/components/shared/QuizModal';
 
 export const Hero: React.FC = () => {
   const [isQuizOpen, setIsQuizOpen] = React.useState(false);

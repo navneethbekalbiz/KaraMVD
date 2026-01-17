@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Button } from './Button';
+import { Button } from '@/components/ui/Button';
 import { ArrowRight, Activity } from 'lucide-react';
-import { QuizModal } from './QuizModal';
-import { Reveal } from './Reveal';
+import { QuizModal } from '@/components/shared/QuizModal';
+import { Reveal } from '@/components/ui/Reveal';
 
 export const DiagnosisSection: React.FC = () => {
     const [isQuizOpen, setIsQuizOpen] = useState(false);

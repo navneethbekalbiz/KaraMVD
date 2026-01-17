@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
+import { Button } from '@/components/ui/Button';
 import { Instagram, Linkedin, Facebook, Youtube, Phone, Mail, Heart, ArrowRight } from 'lucide-react';
-import { siteConfig } from '../site.config';
+import { siteConfig } from '@/constants/site.config';
 
 export const Footer: React.FC = () => {
   const [brandFirst, ...brandRest] = siteConfig.brandName.split(' ');

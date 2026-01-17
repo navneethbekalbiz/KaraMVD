@@ -1,6 +1,6 @@
 import React from 'react';
-import { Reveal } from './Reveal';
-import { siteConfig } from '../site.config';
+import { Reveal } from '@/components/ui/Reveal';
+import { siteConfig } from '@/constants/site.config';
 
 export const Intro: React.FC = () => {
   return (
