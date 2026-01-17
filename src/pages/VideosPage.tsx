@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { LaptopFrame } from "@/components/ui/laptop-frame";
 import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
-import { Play, Search, Bell, Monitor, Heart, RotateCcw, ThumbsUp, Share2, MoreVertical, Settings } from "lucide-react";
+import { Play, Search, Bell, ThumbsUp, Share2 } from "lucide-react";
 
 import { siteConfig } from "@/constants/site.config";
 
