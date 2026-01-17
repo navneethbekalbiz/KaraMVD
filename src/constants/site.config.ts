@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
     pinterest: "https://in.pinterest.com/dr_rashmi_sharma/",
     youtube: "https://www.youtube.com/@drrashmi.sharma"
   },
-  bookingUrl: "https://calendly.com/d/crvm-84g-rp3",
+  bookingUrl: "https://cal.com/",
   seo: {
     title: "Best Dermatologist in Delhi | Skin Specialist in Delhi | Dr Rashmi Sharma",
     description: "Dr. Rashmi Sharma is a highly respected and skilled skin and hair specialist in Delhi. Expert treatments for Acne, Laser Hair Reduction, Anti-Aging and more.",

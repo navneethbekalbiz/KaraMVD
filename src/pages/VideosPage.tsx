@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { LaptopFrame } from "@/components/ui/laptop-frame";
 import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 import { Play, Search, Bell, Monitor, Heart, RotateCcw, ThumbsUp, Share2, MoreVertical, Settings } from "lucide-react";
+
 import { siteConfig } from "@/constants/site.config";
 
 // Video Data
@@ -103,7 +104,7 @@ export const VideosPage: React.FC = () => {
                                                 <iframe
                                                     width="100%"
                                                     height="100%"
-                                                    src={`https://www.youtube.com/embed/${selectedVideo.id}?autoplay=1&mute=0&rel=0`}
+                                                    src={`https://www.youtube.com/embed/${selectedVideo.id}?autoplay=0&mute=0&rel=0`}
                                                     title="YouTube video player"
                                                     frameBorder="0"
                                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -197,6 +198,6 @@ export const VideosPage: React.FC = () => {
                 </LaptopFrame>
             </div>
 
-        </div>
+        </div >
     );
 };
